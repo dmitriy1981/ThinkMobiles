@@ -1,0 +1,75 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.sign-in-button
+{
+    margin-bottom: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+#registration-legend
+{
+    color: #ffffff;
+}
+#user-legend
+{
+    color: #000000;
+}
+.well
+{
+    background-color: #0B2641;
+    color: #ffffff;
+    border: 2px solid  #a8958a;
+}
+.well-user-form
+{
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.register-form label,.login-form label, .user-form label
+{
+    font-size: 11px;
+}
+.register-btn
+{
+    width: 120px;
+}
+.error-list
+{
+    display: block;
+    text-align: left;
+}
+#error-block
+{
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+#redirect_timer
+{
+    color: #77021f;
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#sortable1, #sortable2 
+{
+    border: 1px solid #eee;
+    float: left;
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    min-height: 20px;
+    padding: 5px 0 0;
+    width: 134px;
+}
+#sortable1 li, #sortable2 li
+{
+    font-size: 10px;
+    margin: 0 5px 5px;
+    padding: 5px;
+    width: 122px;
+    cursor: move;
+}
